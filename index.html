@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Атмосфера — дневник, который помнит, как ощущался день</title>
+  <meta name="description" content="Личный дневник: текст, фото и песня дня превращаются в живое воспоминание по единой визуальной системе." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='26' fill='%23c4552d'/%3E%3Ccircle cx='32' cy='32' r='14' fill='%23f3efe6'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=JetBrains+Mono:wght@400;600&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/">
+      <span class="brand-seal"></span>
+      <span class="brand-name">Атмосфера</span>
+      <span class="brand-sub">дневник ощущений</span>
+    </a>
+    <nav class="nav">
+      <a href="#/" data-nav="archive">Архив</a>
+      <a href="#/new" data-nav="new" class="nav-cta">+ Записать день</a>
+      <a href="#/system" data-nav="system">Визуальная система</a>
+      <a href="#/settings" data-nav="settings">Настройки</a>
+    </nav>
+  </header>
+  <main id="view" class="view"></main>
+  <footer class="foot">
+    <span>Make the Invisible Visible · Genesis Hackathon 2026 · ArtTech</span>
+    <span>Все данные хранятся только в вашем браузере</span>
+  </footer>
+  <div id="toast" class="toast" hidden></div>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
